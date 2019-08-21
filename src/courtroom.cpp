@@ -3215,7 +3215,7 @@ void Courtroom::on_custom_objection_clicked()
     ui_hold_it->set_image("holdit.png");
 
     ui_custom_objection->set_image("custom_selected.png");
-    if(file_exists(ao_app->get_character_path(current_char, "custom41.wav"))) //checks wether client uses old custom obj format or new one and acts accordingly.
+    if(file_exists(ao_app->get_character_path(current_char, "custom1.wav"))) //checks wether client uses old custom obj format or new one and acts accordingly.
       objection_state = 41;
     else
       objection_state = 4;
